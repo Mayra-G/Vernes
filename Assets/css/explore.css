@@ -1,0 +1,91 @@
+
+
+main, footer {
+    padding-left:200px;
+  }
+
+ #sidebar .sidenav {
+    margin-top: 63px;
+ }
+
+  .sidenav-fixed{
+
+    background-color: #20254b ;
+    width: 200px !important;
+  }
+
+
+
+
+.sidenav-fixed a{
+    font-size: 15pt !important;
+    font-family: 'Bellerose';
+    color: white !important;
+    
+
+}
+
+#sidebar .sidenav-trigger{
+    color: white;
+    background-color: white;
+    cursor: default !important;
+}
+
+
+.kard h4{
+    font-family:'Bellerose' ;
+    color: #05092b ;
+    font-size: 40pt;
+}
+
+.kard span{
+    font-family:'Bellerose' ;
+    color: #888888 ;
+}
+
+.card{
+    font-family:'Bellerose' ;
+    
+    
+}
+
+.card-content{
+ height: 60px !important;
+}
+
+.card-action a{
+    color: #05092b !important;
+}
+
+.card-title {
+    color: #05092b !important;
+    font-size: 13pt !important;
+}
+
+.btn-floating {
+    background-color: #05092b;
+    color: white;
+}
+
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+
+    #sidebar .sidenav-trigger {
+
+        background-color: #05092b;
+        color: white;
+        cursor: pointer !important;
+        padding-left: 18px;
+
+    }
+
+    #sidebar .sidenav {
+        margin-top: auto;
+    }
+
+   
+   
+  }

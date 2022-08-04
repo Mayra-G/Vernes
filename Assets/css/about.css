@@ -1,0 +1,143 @@
+.section {
+
+ 
+    width: 100%;
+    height: fit-content;
+  
+    
+}
+
+.section .row {
+   
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+
+.col{
+    align-content: center !important;
+
+}
+.img-about{
+    vertical-align: middle;
+}
+.section h5 {
+    font-family: 'black_djangoregular';
+    font-size: 60pt;
+    color: #05092b;
+
+}
+
+.section p{
+    padding-right: 30 px;
+    color: #05092b;
+    font-size: 18pt;
+    font-family: 'Bellerose' ;
+}
+
+
+ .users .row {
+
+    align-content: center !important;
+    justify-content: center !important;
+    display:flex !important;
+    
+    
+}
+
+.users .col {
+    float: none;
+    margin: 0 auto;
+}
+
+
+
+
+.card{
+    font-family:'Bellerose';
+    padding-left: 0% !important;
+    
+    
+}
+
+.card-image i{
+    color: #888888;
+    font-size: 50pt;
+}
+
+.card-content{
+ height: fit-content !important;
+ margin: 0 auto;
+ 
+}
+
+.card-content p{
+    font-size: 12pt ;
+    height: 90px !important;
+}
+
+.card-title {
+    color: #05092b !important;
+    font-size: 20pt !important;
+    height: fit-content !important;
+}
+
+.card-title h6{
+    font-size: 12pt;
+    color: #888888;
+}
+
+
+@media only screen and (max-width : 992px) {
+
+
+    .row {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        margin-bottom: 50px !important;
+    }
+
+    .col {
+       margin-left: 0% !important;
+       margin-right: 0% !important;
+       padding: 0% !important;
+    }
+
+   
+    .title-about {
+        text-align: center;
+        font-size: 50pt !important;
+      
+    }
+
+    .par-about {
+        font-size: 14pt !important;
+        padding-left: 30px !important;
+    }
+
+     .users p {
+        height: fit-content !important;
+     }
+
+     .users h5{
+        font-size: 50pt;
+     }
+
+     .users i{
+        font-size: 70pt;
+        padding-top: 20px;
+     }
+
+     .btw {
+        margin-top: 50px;
+        height: 30px;
+     }
+
+     .card {
+        height: fit-content !important;
+     }
+
+
+   
+  }

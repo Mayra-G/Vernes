@@ -1,0 +1,80 @@
+
+.section {
+
+ 
+    width: 100%;
+    height: fit-content !important;
+  
+    
+}
+
+.section .row {
+   
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+
+.col{
+    margin: 0% auto;
+    padding: 0%;
+    align-content: center !important;
+    height: fit-content !important;
+
+}
+.img-about{
+
+    margin-top: 60px;
+    vertical-align: middle !important;
+}
+.section h5 {
+    font-family: 'black_djangoregular';
+    font-size: 55pt;
+    color: #05092b;
+
+}
+
+.section p{
+
+    color: #05092b;
+    font-size: 18pt;
+    font-family: 'Bellerose' ;
+}
+.input-field span{
+
+    font-size: 15pt !important ;
+}
+
+.btn {
+    background-color: #05092b;
+    color: white;
+    border-radius: 30px;
+    font-size: 12pt;
+}
+
+.input-field i{
+    color: #05092b;
+}
+
+.datos{
+    padding-right: 40px !important;
+}
+
+@media only screen and (max-width: 767px){
+
+    .title-about {
+        text-align: center !important;
+    
+    }
+    .img-about{
+
+        margin-top: 60px;
+        margin-bottom: 60px;
+       
+    }
+
+
+
+
+  }
